@@ -1,0 +1,3 @@
+AI model=MangoAI-0.1beta
+AI type=chat
+untrained,coded

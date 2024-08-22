@@ -1,0 +1,56 @@
+/* styles/style.css */
+
+/* Center the entire chat container */
+.chat-container {
+    width: 100%; 
+    max-width: 600px; /* Max width for the chat interface */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center the text inside the container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for better look */
+    border-radius: 10px; /* Optional: rounded corners */
+    background-color: #f9f9f9; /* Optional: background color */
+}
+
+/* Style for the MangoAI Chat title */
+#chatTitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #ff8c00;
+    font-weight: bold;
+    margin-bottom: 20px; /* Space between the title and the chat box */
+}
+
+/* Style for the chat box */
+.chat-box {
+    width: 100%;
+    height: 300px; /* Set a fixed height */
+    overflow-y: auto; /* Scrollable if the content is too long */
+    border: 1px solid #ccc; /* Border around the chat box */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px; /* Space between chat box and input */
+}
+
+/* Style for the input and button */
+#userInput {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Space between input and button */
+}
+
+#sendButton {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    background-color: #e07a00;
+}
